@@ -12,6 +12,7 @@ public class P4 {
 			for (int col = 1; col <= row*2-1; col++) {
 				System.out.print(ch+" ");
 				ch++;
+				int x=0;
 			}
 			System.out.println();
 		}
