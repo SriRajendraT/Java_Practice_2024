@@ -14,23 +14,18 @@ public class P28 {
 		int search=11;
 		int change=20;
 		
-		int newArr[]=replaceArr(arr, search, change);
-		for(int i=0;i<newArr.length;i++) {
-			System.out.println(newArr[i]);
+		replaceArr(arr, search, change);
+		for(int i=0;i<arr.length;i++) {
+			System.out.println(arr[i]);
 		}
 	}
 	
-	public static int[] replaceArr(int[] arr,int search,int change) {
-		int index=-1;
-		for(int i=0;i<arr.length;i++) {
-			if(arr[i]==search) {
-				index=i;
-				break;
-			}
-		}
-		if(index!=-1) {
-			arr[index]=change;
-		}
-		return arr;
+	public static void replaceArr(int[] arr,int search,int change) {
+		for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == search) {
+                arr[i] = change;
+                break;
+            }
+        }
 	}
 }
