@@ -14,6 +14,7 @@ public class P10 {
 		
 		for(char ch:str.toCharArray()) {
 			count++;
+			System.out.print(ch+" ");
 		}
 		
 		return count;
