@@ -6,7 +6,7 @@ public class P4 {
 		int num=5;
 		for (int row = 1; row <= num/2+1; row++) {
 			char ch='A';
-			for (int col = 1; col <= num - row; col++) {
+			for (int col = 1; col < (num-1) - row; col++) {
 				System.out.print("_ ");
 			}
 			for (int col = 1; col <= row*2-1; col++) {
@@ -18,7 +18,7 @@ public class P4 {
 
 		for (int row = num /2 ; row >= 1; row--) {
 			char ch='A';
-			for (int col = 1; col <= num - row; col++) {
+			for (int col = 1; col < (num-1) - row; col++) {
 				System.out.print("_ ");
 			}
 			for (int col = 1; col <= row*2-1; col++) {

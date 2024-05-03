@@ -5,7 +5,7 @@ public class P3 {
 	public static void main(String[] args) {
 		int num = 5;
 		for (int row = 1; row <= num/2+1; row++) {
-			for (int col = 1; col < num - row; col++) {
+			for (int col = 1; col < (num-1) - row; col++) {
 				System.out.print("_ ");
 			}
 			for (int col = 1; col <= row*2-1; col++) {
@@ -15,7 +15,7 @@ public class P3 {
 		}
 
 		for (int row = num /2 ; row >= 1; row--) {
-			for (int col = 1; col < num - row; col++) {
+			for (int col = 1; col < (num-1) - row; col++) {
 				System.out.print("_ ");
 			}
 			for (int col = 1; col <= row*2-1; col++) {
