@@ -1,4 +1,4 @@
-package com.jsp.arrays;
+	package com.jsp.arrays;
 
 public class P23 {
 
