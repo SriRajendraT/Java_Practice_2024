@@ -7,7 +7,7 @@ public class P33 {
 		int[] arr2 = { 10, 11, 12 };
 		int newArrlength = arr1.length + arr2.length;
 		int[] newArr = new int[newArrlength];
-
+		
 		for (int i = 0; i < arr1.length; i++) {
 			newArr[i] = arr1[i];
 
